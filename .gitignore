@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Environments
+.env
+*.env
+*.venv/
+venv/
+ENV/
+env/
+wims/.env
+
+# VSCode
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# SQLite database (if used)
+*.sqlite3
+
+# Logs
+*.log
+
+# Django media/static (if you're generating locally)
+media/
+staticfiles/
+
+# Ignore compiled translations
+*.mo
+
+# Coverage and test reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Node modules (if using JS tools like React or Webpack)
+node_modules/
+
+# Git backup files
+*.orig
+
+# My WIMS-specific ignore
+wims/.env
+
+# Ignore local settings (optional)
+local_settings.py
+.vercel
